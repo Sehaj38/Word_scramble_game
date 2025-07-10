@@ -1,0 +1,10 @@
+umbrella
+galaxy
+pencil
+mountain
+python
+keyboard
+puzzle
+window
+rocket
+island
