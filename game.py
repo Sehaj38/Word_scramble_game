@@ -54,13 +54,13 @@ def play_scramble_game(words_file, total_rounds=5, time_limit=10):
 
         print(f"⏲️ You answered in {int(time_taken)} seconds.\n")
 
-    print("🧾 Game Over!")
+    print("Game Over!")
     print(f"Your Score: {score} / {total_rounds}")
 
     if score >= 4:
         print("🏆 Congratulations! You won!")
     else:
-        print("😢 Better luck next time.")
+        print("Better luck next time.")
 
 if __name__ == "__main__":
     play_scramble_game('words.txt')
